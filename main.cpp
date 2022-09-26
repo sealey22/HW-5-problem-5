@@ -1,3 +1,6 @@
+/* I used kattis to edit my program and fixed errors, version control was just spinning and was not letting me make commits */
+
+
 #include <iostream>
 #include <iomanip>
 
@@ -19,12 +22,13 @@ int main() {
   // enter the number of fields and cost per one square metre of lawn
   cin >> C >> L;
 
-  for (int i = 0; i <= 1; ++i){
+  for (int i = 0; i < 1; ++i){
     cin >> E >> W;
     total = ((E*W)* C) * L;
+    //lenght * Width = are of lawn * number of lawns
     
     }
-  cout << setprecision(12) << total;
+  cout << total;
     
     
   
