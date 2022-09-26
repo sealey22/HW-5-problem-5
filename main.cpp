@@ -28,9 +28,10 @@ int main() {
     //lenght * Width = are of lawn * number of lawns
     
     }
-  cout << setprecision(8)total;
+  cout << setprecision(8) << total;
     //answer has to be 10^-8, ex: x.00000001
   //use setprecision to set number of decimal points
-    
+
+  return 0;
   
 }
