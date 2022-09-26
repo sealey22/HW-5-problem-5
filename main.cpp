@@ -24,12 +24,13 @@ int main() {
 
   for (int i = 0; i < 1; ++i){
     cin >> E >> W;
-    total = ((E*W)* C) * L;
+    total = ((E*W)* C) + total;
     //lenght * Width = are of lawn * number of lawns
     
     }
-  cout << total;
-    
+  cout << setprecision(8)total;
+    //answer has to be 10^-8, ex: x.00000001
+  //use setprecision to set number of decimal points
     
   
 }
